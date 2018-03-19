@@ -5,7 +5,7 @@ CONF_FILE="$DATA_DIR/postgresql.conf"
 PORT=10100
 LOG_FILE="$HOME/data/postgresql/server.log"
 PID_FILE="$DATA_DIR/postmaster.pid"
-DBNAME="visual_localization"
+DBNAME="mydatabase"
 SUPERUSER=""
 
 # define PG* environment variable
