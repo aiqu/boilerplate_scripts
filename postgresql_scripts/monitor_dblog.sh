@@ -9,4 +9,4 @@ fi
 
 . $CONF_FILE
 
-watch -n0.1 cat $LOG_FILE
+watch -n0.1 tail -n50 $LOG_FILE
